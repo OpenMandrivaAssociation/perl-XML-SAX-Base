@@ -48,3 +48,11 @@ rm -rf %{buildroot}
 %doc Changes README
 %{perl_vendorlib}/XML
 %{_mandir}/man3/XML::*.3*
+
+
+%changelog
+* Fri May 25 2012 Crispin Boylan <crisb@mandriva.org> 1.80.0-1
++ Revision: 800723
+- Initial package
+- Created package structure for 'perl-XML-SAX-Base'.
+
