@@ -1,10 +1,10 @@
 %define modname	XML-SAX-Base
-%define modver	1.08
+%define modver	1.09
 
 Summary:	Simple API for XML Base
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	14
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
