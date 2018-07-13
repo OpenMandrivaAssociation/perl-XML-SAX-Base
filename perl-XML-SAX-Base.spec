@@ -10,6 +10,8 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+Buildrequires:	perl(Test::More)
+Buildrequires:	perl(Test)
 Buildrequires:	perl-devel
 BuildRequires:	perl(XML::NamespaceSupport)
 
