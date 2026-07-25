@@ -3,12 +3,12 @@
 
 Summary:	Simple API for XML Base
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	5
+Version:	%{modver}
+Release:	6
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/grantm/XML-SAX-Base
+Source0:	https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 Buildrequires:	perl(Test::More)
